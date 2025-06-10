@@ -1,10 +1,8 @@
-import numbers
-
-
 def calculate_average(nums):
     total = sum(nums)
-    count = len(numbers)
-    total / count
+    count = len(nums)
+    average = total / count
+    return average
 
 
 nums = [10, 15, 20]
